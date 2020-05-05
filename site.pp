@@ -37,6 +37,7 @@ node agent.puppet.vm {
     "Hello from Puppet Server":
   }
   include  '::postgresql::server'
+  include  ntp
   # include  '::mysql::client'
 }
 
