@@ -40,4 +40,7 @@ node agent.puppet.vm {
   include  ntp
   # include  '::mysql::client'
 }
+node abc {
+  include ntp
+}
 
